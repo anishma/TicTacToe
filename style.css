@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.tictactoe{
+    width:20%;
+    height:40%;
+    margin-top:4%;
+}
+
+.row{
+    margin-bottom: 5%;
+}
+.btn{
+   width:60px;
+    height: 60px;
+}
+#res{
+    height: 60px;
+    width: 180px;
+    margin-top: 8%;
+}
+.xwins{
+    margin-bottom: 20px;
+}
+.label{
+    color: #333;
+}
+input{
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    border:solid 1px #eee;
+    padding:5px;
+}
+@media all and (max-width:1200px) {
+    .tictactoe{
+        width:35%;
+    }
+}
+@media screen and (max-width: 768px){
+    .tictactoe{
+        width: 40%;
+    }
+}
+@media screen and (max-width: 582px) {
+    .tictactoe{
+        width: 70%;
+    }
+}
